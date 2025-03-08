@@ -73,6 +73,8 @@ header {
 nav ul {
     display: flex;
     list-style: none;
+    text-align: center;
+    margin-left: -200px;
 }
 
 nav ul li {
@@ -80,7 +82,7 @@ nav ul li {
 }
 
 nav ul li:hover a {
-    
+
     padding-bottom: 22px;
     border-bottom: 5px solid #004687;
 }
