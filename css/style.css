@@ -71,6 +71,9 @@ nav ul li {
     margin: 0 15px;
 }
 
+nav ul li:hover  {
+    border-bottom: 2px solid #004687;
+}
 nav ul li a {
     text-decoration: none;
     color: var(--text-dark);
@@ -93,14 +96,6 @@ nav ul li a.active {
     margin-right: 20px;
 }
 
-.search input {
-    padding: 8px 15px;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    width: 200px;
-    font-size: 14px;
-}
-
 .search button {
     position: absolute;
     right: 10px;
@@ -109,6 +104,9 @@ nav ul li a.active {
     background: none;
     border: none;
     cursor: pointer;
+    border-right: 2px solid #004687;
+    padding-right: 20px;
+
 }
 
 .search button img {
