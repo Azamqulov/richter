@@ -1,0 +1,256 @@
+@media(max-width:1200px) {
+    .opinion-leader .container {
+        width: 960px;
+
+    }
+
+    .hero {
+        padding: 70px;
+    }
+
+    .contact-cards {
+        width: 960px;
+    }
+
+    .telegram {
+        right: 0px;
+    }
+}
+
+@media(max-width:992px) {
+    .top-materials .container {
+        flex-wrap: wrap;
+    }
+
+    .opinion-leader,
+    .left-section {
+        width: 100%;
+    }
+
+    .card {
+        width: 75%;
+    }
+
+    .contact-cards {
+        width: 768px;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .questions h3 {
+        font-size: 30px;
+    }
+
+    .footer-content {
+        align-items: center;
+    }
+}
+ @media (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: flex;
+    }
+
+    .main-nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        height: 100vh;
+        background-color: var(--white);
+        padding: 80px 20px 20px;
+        transition: all 0.3s ease;
+        z-index: 150;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .main-nav.active {
+        left: 0;
+    }
+    .logo img{
+        height: 70px;
+
+    }
+    .slider-controls{
+        right: 20px;
+        bottom: 100px;
+    }
+    .opinion-leader .container {
+        width: 576px;
+    }
+    .leader-photo img{
+        margin: 15px;
+    }
+    .discussion-topics{
+        width: 576px;
+        padding: 20px ;
+    }
+    .opinion-leader .container {
+        width: 576px;
+
+    }
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+    .card {
+        width: 100%;
+    }
+    .right-section{
+        width: 100%;
+    }
+    .other-materials {
+        text-align: center;
+    }
+    .contact-cards {
+        width: 100%;
+    }
+    .header-container {
+        justify-content: space-between;
+    }
+
+    .search-profile {
+        order: 3;
+        width: 100%;
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .leader-info {
+        padding: 20px;
+    }
+
+    .leader-photo {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 20px;
+    }
+
+    .leader-content {
+        text-align: center;
+    }
+
+    .leader-content h2 {
+        font-size: 28px;
+    }
+
+    .arrow-right {
+        width: 60px;
+        height: 60px;
+    }
+
+    .discussion-topics {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .questions h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .opinion-leader .container {
+        width: 480px;
+    }
+    .opinion-leader{
+        height: 120vh;
+    }
+    .discussion-topics{
+        width: 100%;
+        height: 70vh;
+    }
+    .container {
+        padding: 0 10px;
+    }
+
+    .leader-content h2 {
+        font-size: 24px;
+    }
+
+    .leader-name p {
+        font-size: 16px;
+    }
+
+    .discussion-topics h3 {
+        font-size: 18px;
+    }
+
+    .topic p {
+        font-size: 14px;
+    }
+
+    .telegram {
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .logo_images {
+        font-size: 28px !important;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+
+    .card-description {
+        font-size: 12px;
+    }
+
+    .other-materials-text {
+        font-size: 18px;
+    }
+
+    .letters h3,
+    .questions h3 {
+        font-size: 20px;
+    }
+
+    .footer-content {
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-info p,
+    .footer-links p {
+        font-size: 12px;
+    }
+}
+@media(max-width:480px){
+    footer{
+        height: 30vh;
+        margin-top: 200px;
+    }
+    .opinion-leader .container {
+        width: 100%;
+    }
+    .slider-controls{
+        display: none;
+    }
+    .hero-content{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .container{
+        width: 100%;
+    }
+}
