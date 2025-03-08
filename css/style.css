@@ -20,6 +20,7 @@ body {
     line-height: 1.6;
     background-color: var(--light-blue);
 }
+
 /* 
 section {
     background-color: rgb(219, 246, 255);
@@ -30,12 +31,14 @@ section {
     margin: 0 auto;
     padding: 0 15px;
 }
-.nav{
+
+.nav {
     position: absolute;
     top: 20px;
     z-index: 10;
     width: 100%;
 }
+
 /* Header Styles */
 header {
     background-color: var(--white);
@@ -76,7 +79,8 @@ nav ul li {
     margin: 0 15px;
 }
 
-nav ul li:hover a{
+nav ul li:hover a {
+    
     padding-bottom: 22px;
     border-bottom: 5px solid #004687;
 }
@@ -127,11 +131,13 @@ nav ul li a.active {
     border-radius: 50%;
     object-fit: cover;
 }
-.bg_images{
+
+.bg_images {
     background-image: url('../images/header_img.png');
     background-size: cover;
     background-position: center;
 }
+
 /* Hero Section */
 .hero {
     background: fixed;
@@ -676,7 +682,7 @@ nav ul li a.active {
 footer {
     background-color: var(--primary-blue);
     color: var(--white);
-    padding: 350px 0 0 0 ;
+    padding: 350px 0 0 0;
     height: 75vh;
 
 }
@@ -721,7 +727,7 @@ footer {
         width: 100%;
     }
 
-    
+
 
     .main-card,
     .other-materials {
@@ -1040,29 +1046,33 @@ footer {
     }
 }
 
-.email-card{
+.email-card {
     bottom: -150px;
     position: relative;
     padding: 20px;
 }
-.content-card{
+
+.content-card {
     position: absolute;
     left: 40px;
     top: 30px;
     z-index: 1;
 }
-.buttons-container .arrow-icon{
+
+.buttons-container .arrow-icon {
     top: 180px;
     color: white;
     left: 180px;
     font-weight: 900;
     font-size: 40px;
 }
-.buttons-container .plus-badge{
+
+.buttons-container .plus-badge {
     left: 220px;
     top: -10px;
 }
-.iocn_1{
+
+.iocn_1 {
     left: 300px;
     color: black;
 }
