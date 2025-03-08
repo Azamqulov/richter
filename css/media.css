@@ -19,6 +19,9 @@
     .telegram {
         right: 0px;
     }
+    footer{
+        height: 80vh;
+    }
 }
 
 @media(max-width:992px) {
@@ -50,10 +53,23 @@
     }
 }
  @media (max-width: 768px) {
+    .slider-controls{
+        display: none;
+    }
     .mobile-menu-toggle {
         display: flex;
     }
-
+    footer{
+        margin: 0 auto;
+        margin-top: 200px;
+        text-align: center;
+    }
+    .email-card {
+        bottom: 0;
+    }
+    .buttons-container{
+        height: 120px;
+    }
     .main-nav {
         position: fixed;
         top: 0;
@@ -178,6 +194,14 @@
     .opinion-leader{
         height: 120vh;
     }
+    .buttons-container{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contact-section{
+        height: 100vh;
+    }
     .discussion-topics{
         width: 100%;
         height: 70vh;
@@ -240,9 +264,8 @@
     }
 }
 @media(max-width:480px){
-    footer{
-        height: 30vh;
-        margin-top: 200px;
+    .rg_card {
+        overflow: hidden;
     }
     .opinion-leader .container {
         width: 100%;
