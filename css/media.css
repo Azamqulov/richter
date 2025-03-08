@@ -3,6 +3,10 @@
         width: 960px;
 
     }
+    .discussion-topics{
+    padding: 22px;
+
+    }
 
     .hero {
         padding: 70px;
@@ -242,6 +246,8 @@
     }
     .opinion-leader .container {
         width: 100%;
+        padding: 20px ;
+        margin: 0 auto;
     }
     .slider-controls{
         display: none;
@@ -252,5 +258,9 @@
     }
     .container{
         width: 100%;
+    }
+    .footer_logo{
+        margin-left:  25px;
+        text-align: center  ;
     }
 }
