@@ -390,7 +390,7 @@ nav ul li a.active {
 .discussion-topics {
     background-color: var(--primary-blue);
     color: var(--white);
-    padding: 40px;
+    padding: 22px;
     width: 48.5%;
 }
 
@@ -508,7 +508,7 @@ nav ul li a.active {
 .card-content {
     position: relative;
     z-index: 1;
-    padding: 30px;
+    /* padding: 30px; */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -647,7 +647,7 @@ nav ul li a.active {
 }
 
 .questions .card-content {
-    padding: 30px;
+    /* padding: 30px; */
     background-color: rgba(255, 255, 255, 0.824);
 }
 
@@ -691,6 +691,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: end;
+    padding: 10px 20px;
 }
 
 .footer-info,
@@ -860,6 +861,12 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(../images/shutterstock_130682090.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #333333ec;
+    color: white;
 }
 
 .card-title {
@@ -956,7 +963,7 @@ footer {
 }
 
 .card-content {
-    padding: 20px;
+    /* padding: 20px; */
     height: 100%;
     display: flex;
     flex-direction: column;
